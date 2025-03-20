@@ -1,6 +1,6 @@
 # Proyecto sobre Samuel Restrepo
 
-## Bueno yo soy Samuel Restrepo, tengo 17 años me gusta mucho montar vicicleta y jugar video juegos
+## Bueno yo soy Samuel Restrepo, tengo 17 años me gusta mucho montar bicicleta y jugar video juegos
 
 ---
 
