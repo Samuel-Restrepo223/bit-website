@@ -6,15 +6,25 @@ h1 {
     margin-top: 20px;
     font-family: 'Playfair Display', serif;
     border-radius: 10px;
-}
+} 
 h2 {
     background-color: #E74C3C;
     color: #ECF0F1;
     padding: 4px 8px;
     border-radius: 5px;
     display: inline-block; 
-    margin: 8px 0; 
-}
+    margin: 8px 0;
+    }
+h3 {
+   background-color: #E74C3C;
+   color: #ECF0F1;
+   padding: 4px 8px;
+   border-radius: 5px;
+   display: inline-block; 
+   margin: 8px 0;
+ }
+
+
 body {
     background: linear-gradient(to bottom, #FDFEFE, #ECF0F1);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -23,10 +33,7 @@ p {
     color: #34495E;
     font-family: 'Roboto', sans-serif;
 }
-h3 {
-    color: #A6896D;
-    font-family: 'Playfair Display', serif;
-}
+
 a {
     color: #E74C3C;
     text-decoration: none;
@@ -96,3 +103,24 @@ footer a {
     gap: 20px;
     align-items: center;
 }
+.video-container {
+    max-width: 640px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: transparent; 
+    padding: 10px;
+  }
+  
+  .styled-video {
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  img {
+    width: 50%; /* Ajusta el porcentaje según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 10px; /* Añade bordes redondeados si lo deseas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Da un efecto de sombra elegante */
+}
+  
