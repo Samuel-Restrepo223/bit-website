@@ -123,4 +123,9 @@ footer a {
     border-radius: 10px; /* Añade bordes redondeados si lo deseas */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Da un efecto de sombra elegante */
 }
-  
+.ig{
+    text-align: right;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
