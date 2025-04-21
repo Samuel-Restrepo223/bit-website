@@ -1,3 +1,12 @@
+:root {
+    --color-fondo: #2D2D2D;
+    --color-secundario: #ff0000;
+    --color-texto: #ffffff;
+    --fuente-base: "Roboto", sans-serif;
+}
+body{
+    background-color: var(--color-fondo);
+}    
 h1 {
     background-color: #2C3E50;
     color: #ECF0F1;
@@ -128,4 +137,44 @@ footer a {
     width: 100%;
     margin: 10px;
     padding: 10px;
+}
+@media (max-width: 767px) {
+    .tit {
+      font-size: 40px;
+      text-align: center;
+    }
+    .con.img.mi {
+        margin-top: 10px;
+        margin-bottom: 10px;
+  
+    }
+  
+    .img.mi {
+      max-width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .tit {
+        font-size: 50px;
+      }
+    
+    .con.img.mi {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .img.mi {
+        max-width: 80%;
+    }
+}
+@media (min-width: 1024px) {
+    body {
+        max-width: 1200px;
+        margin: 0;
+    }
+    .tit{
+       font-size: 60px;
+    }
+    .img.mi {
+      max-width: 800px;
+    }
 }

@@ -1,0 +1,138 @@
+:root {
+    --color-fondo: #2D2D2D;
+    --color-secundario: #ff0000;
+    --color-texto: #ffffff;
+    --fuente-base: "Roboto", sans-serif;
+}
+body{
+    background-color: var(--color-fondo);
+    font-family: var(--fuente-base);
+}
+.contenedor-imagen {
+    width: 100%; 
+    height: 550px; 
+    background-image: url(../assets/fondo.2.jpg); 
+    background-size: cover; 
+    background-position: 50% 60%; 
+    overflow: hidden; 
+    border: 5px solid #333; 
+}
+  
+.imagen-1 {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .texto-superpuesto {
+    position: absolute; /* Posiciona el texto dentro del contenedor */
+    top: 50%; /* Centra verticalmente */
+    right: 10%; /* Ubica el texto en la parte derecha */
+    transform: translateY(-40%); /* Ajusta el centro vertical */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para legibilidad */
+    color: var(--color-texto); /* Texto en blanco */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px color ; /* Bordes redondeados */
+    text-align: center; /* Centra el contenido dentro del texto */
+  }
+.contenedor-imagen-bio{
+  display: flex;
+  color: var(--color-texto);
+  font-family: var(--fuente-base);
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 20px;
+}
+.contenedor-bio{
+width: 70%;
+text-align: center ;
+}
+.contenedor-bio button{
+  display: block;
+  margin: 0 auto;
+  padding: 18px 35px; /* Más espacio interno */
+  background-color: #0080ff; /* Un azul vibrante */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Bordes más redondeados */
+  cursor: pointer;
+  font-size: 1.15em; /* Texto más grande */
+  letter-spacing: 0.7px; /* Un poco de espacio entre letras */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+
+.texto-bio{
+  text-align: inherit;
+}
+.contenedor-principal-contacto {
+  display: flex; /* Habilita Flexbox para los apartados izquierdo y derecho */
+  align-items: flex-start; /* Alinea los apartados verticalmente al inicio */
+  justify-content: space-between; /* Distribuye el espacio entre los apartados */
+  margin-top: 20px; /* Añade un margen superior para separarlo de la sección anterior */
+  padding: 20px; /* Añade un poco de espacio interno */
+  width: 100%;
+}
+
+.apartado-izquierda-contacto {
+  text-align: center; /* Alinea el texto del apartado izquierdo a la izquierda */
+  width: 40%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+.apartado-izquierda-contacto h2 {
+  font-size: 1.8em;
+  color: var(--color-texto);
+  margin-bottom: 15px;
+}
+.apartado-izquierda-contacto p {
+  color: #eee; /* Un gris más claro para mejor contraste */
+    font-size: 1.2em; /* Un poco más grande */
+    line-height: 1.8; /* Mejor espaciado entre líneas */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+
+.apartado-izquierda-contacto button {
+  display: block;
+  margin: 0 auto;
+  padding: 18px 35px; /* Más espacio interno */
+  background-color: #0080ff; /* Un azul vibrante */
+  color: white;
+  border: none;
+  border-radius: 10px; /* Bordes más redondeados */
+  cursor: pointer;
+  font-size: 1.15em; /* Texto más grande */
+  letter-spacing: 0.7px; /* Un poco de espacio entre letras */
+  transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+}
+.apartado-izquierda-contacto button:hover {
+  background-color: #0056b3;
+}
+.contenedor-contacto {
+  display: flex; /* Habilita Flexbox */
+  align-items: center; /* Alinea verticalmente al centro */
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  margin-top: 20px;
+  width: 55%;
+}
+
+.contacto {
+  text-align: left; 
+  margin-right: 20px; 
+  order: 1;
+}
+.bmx-con{
+  order: 2;
+}
+.bmx-img {
+  max-width: 100%; 
+  height: auto;
+  width: 600px; 
+  height: 500px; 
+  object-fit: cover; 
+}
+.fot {
+  color: var(--color-texto)
+}
